@@ -45,6 +45,10 @@ def hasCycle_set(head):
             return 1
     return 0
 
+
+# TO-DO : tortoise and the hare algorithm
+
+
 start1 = timer()
 val1 = hasCycle_set(nodes[0])
 end1 = timer()
