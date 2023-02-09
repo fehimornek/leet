@@ -58,6 +58,8 @@ it means that there is a loop in the linked list. If the hare gets to a node
 with None value it means there is no loop.
 """
 def tortoise_hare(head):
+    if head is None or head.next is None:
+        return False
     tortoise = head
     hare = head.next
     while True:
